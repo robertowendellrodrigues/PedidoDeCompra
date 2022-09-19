@@ -1,0 +1,63 @@
+.client-container{
+    display: flex;
+    flex-direction: column;    
+    width: auto;
+    height: 600px; 
+    padding: 10px 25px 10px 25px ;     
+}
+
+.client-header{
+   
+}
+.menu-header{
+    background-color: rgba(128, 128, 108, 0.788);
+}
+
+.client-tela-main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    height: 631px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.212);    
+}
+.client-crud-container{    
+    display: flex;
+    padding-bottom: 10px; 
+    border: 1px solid rgba(0, 0, 0, 0.212); 
+}
+.client-crud{
+    background-color: rgb(129, 129, 116);
+
+    display: flex;
+    margin: 10px 5px 2px 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 120px;
+    height: 45px;
+}
+.client-inf{
+    
+
+}
+
+.client-crud a{
+    width: 105px;
+    height: 45px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.client-crud-container :hover{
+background-color: black;
+}
+.client-crud a:hover{    
+    color: rgb(192, 165, 12);
+    font-size: 1.1em;
+}
+.client-crud svg{
+    height: 19px;
+    
+}

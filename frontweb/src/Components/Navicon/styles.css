@@ -1,0 +1,38 @@
+.navicon-container{
+    height: 0px;    
+    visibility: collapse;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;    
+    background-color: rgba(17, 17, 17, 0.938);
+    height: 70px;    
+}
+.icon{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 65px;
+    color: rgba(255, 255, 255, 0.767);    
+      
+}
+svg{
+    width:28px;
+    height:50px;    
+}
+.icon :hover{
+    color: rgb(192, 165, 12);
+    font-size: 1.1em;
+    background-color: rgb(5, 5, 5);    
+}
+
+@media (min-width: 767px) {
+    #naviconId {
+        height: 70px;
+    visibility: visible;
+    }
+}
