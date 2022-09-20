@@ -30,11 +30,35 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>
-                            <button className='dropbtn'>Sobre</button>
+                            <button className='dropbtn'>Movimentação</button>
                             <div className='dropdown-content'>
-                                <a href="">Fornecedor</a>
-                                <a href="">Produto</a>
-                                <a href="">Usuário</a>
+                                <a href="">NF/NF-e/DAV</a>
+                                <a href="">Caixa Central</a>
+                                
+                            </div>
+                        </li>
+                        <li className='navbar-manu-mark dropdown'>
+                            <button className='dropbtn'>Financeiro</button>
+                            <div className='dropdown-content'>
+                                <a href="">Contas á pagar</a>
+                                <a href="">Contas á receber</a>
+                                <a href="">Fluxo de caixa</a>
+                                <a href="">Orçamento</a>
+                                <a href="">Conciliação de recebíveis</a>
+                                
+                                
+                            </div>
+                        </li>
+                        <li className='navbar-manu-mark dropdown'>
+                            <button className='dropbtn'>Relatório</button>
+                            <div className='dropdown-content'>
+                                <a href="">Contas á pagar</a>
+                                <a href="">Contas á receber</a>
+                                <a href="">Fluxo de caixa</a>
+                                <a href="">Orçamento</a>
+                                <a href="">Conciliação de recebíveis</a>
+                                
+                                
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>

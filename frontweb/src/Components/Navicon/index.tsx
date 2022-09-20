@@ -10,6 +10,7 @@ import {ReactComponent as Iconreceber} from './img/arrow-down.svg'
 import {ReactComponent as Iconpagar} from './img/arrow-up.svg'
 import {ReactComponent as IconCaixa} from './img/coin.svg'
 import {ReactComponent as Iconbanco} from './img/bank.svg'
+import {ReactComponent as Iconpdv} from './img/shop.svg'
 
 const Navicon = () => {
     return (
@@ -46,7 +47,10 @@ const Navicon = () => {
                         <a className='icon'><Iconlist />Compras</a>
                     </div>
                     <div className='icon'>
-                        <a className='icon'><Iconconfig />Pesquisa</a>
+                        <a className='icon'><Iconpdv />PDV</a>
+                    </div>
+                    <div className='icon'>
+                        <a className='icon'><Iconconfig />Configuração</a>
                     </div>
                     
                     <div className='icon'>
