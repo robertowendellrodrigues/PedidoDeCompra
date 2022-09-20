@@ -1,6 +1,6 @@
 import './styles.css';
 
-const Client = () => {
+const Product = () => {
     return (
         <>
             <div className='client-container-main'>
@@ -74,4 +74,4 @@ const Client = () => {
     );
 }
 
-export default Client
+export default Product

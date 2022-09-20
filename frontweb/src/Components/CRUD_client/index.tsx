@@ -12,29 +12,6 @@ const CRUD_client = () => {
             <div className="client-container">
                 <div className='main-container'>
                     <div className='menu-header-crud'>
-                        <ul className="menu-crud">
-                            <li><a href="#">Arquivo</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Web Design</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li><a href="#">Relatório</a>
-                                <ul>
-                                    <li><a href="#">Web Design</a>
-                                        <ul>
-                                            <li><a href="#">Web Design</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">SEO</a></li>
-                                    <li><a href="#">Design</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-
                     </div>
                     <div className="client-tela-main">
                         <div className="client-crud-container">

@@ -51,8 +51,7 @@
 }
 
 .bnt-tabs-client {
-    background-color: rgb(129, 129, 116);
-    color: white;
+    background-color: rgb(159, 174, 172);
     font-size: 15px;
     width: 190px;
     height: 23px;
@@ -61,9 +60,9 @@
     padding: 0px 0 px 0px 20px;
     border-radius: 0px 5px 0px 0px;
 }
-.bnt-tabs-client:hover {  
+.bnt-tabs-client:hover {
     
-    color:  rgb(192, 165, 12);
+    color: rgb(214, 215, 210);
 }
 
 .endereço-client {
