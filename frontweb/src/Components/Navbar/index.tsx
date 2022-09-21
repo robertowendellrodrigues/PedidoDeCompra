@@ -1,6 +1,7 @@
 import './styles.css';
 import { ReactComponent as Iconlist } from './img/door-open.svg'
 import { ReactComponent as Buttonmobile } from './img/list-ul.svg'
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -16,9 +17,7 @@ const Navbar = () => {
                         <li className='navbar-manu-mark dropdown'>
                             <button className='dropbtn'> Cadastro</button>
                             <div className='dropdown-content'>
-                                <a href="">Fornecedor</a>
-                                <a href="">Produto</a>
-                                <a href="">Usuário</a>
+                                
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>

@@ -7,7 +7,7 @@
 
 .main-container {
     height: 90px;
-    background-color: rgb(218, 224, 225);;
+    background-color: rgb(218, 224, 225);
     margin: 5px 20px 0px 20px;
 
 }
@@ -29,7 +29,7 @@
 }
 
 .client-crud {
-    background-color: rgb(129, 129, 116);
+    background-color: rgb(128, 128, 108);
     display: flex;
     margin: 10px 5px 2px 5px;
     border-radius: 5px;
