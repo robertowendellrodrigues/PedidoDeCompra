@@ -30,6 +30,8 @@ svg{
     background-color: rgb(5, 5, 5);    
 }
 
+
+
 @media (min-width: 767px) {
     #naviconId {
         height: 70px;

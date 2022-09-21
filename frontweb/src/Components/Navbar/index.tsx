@@ -2,6 +2,7 @@ import './styles.css';
 import { ReactComponent as Iconlist } from './img/door-open.svg'
 import { ReactComponent as Buttonmobile } from './img/list-ul.svg'
 import { Link } from 'react-router-dom';
+import {ReactComponent as Iconlogin} from './img/person-login.svg'
 
 
 const Navbar = () => {
@@ -60,8 +61,19 @@ const Navbar = () => {
                                 
                             </div>
                         </li>
-                        <li className='navbar-manu-mark dropdown'>
-                            <button className='dropbtn'> Sair</button>
+                        <li className='navbar-manu-mark dropdown' id='div-login'>                            
+                                <Iconlogin id='icon-login'/>                                   
+                       
+                            <div className='dropdown-content '>
+                                <a href="" className='icon-a-submenu'>Contas á pagar</a>
+                                <a href="" className='icon-a-submenu'>Contas á receber</a>
+                                <a href="" className='icon-a-submenu'>Fluxo de caixa</a>
+                                <a href="" className='icon-a-submenu'>Orçamento</a>
+                                <a href="" className='icon-a-submenu'>Conciliação de recebíveis</a>
+                                
+                                
+                            </div>
+                            
                             
                         </li>
                         

@@ -65,9 +65,7 @@ const Navicon = () => {
                         
                     </div>
 
-                    <div className='icon'>
-
-                    </div>
+                   
 
                 </div>
 
