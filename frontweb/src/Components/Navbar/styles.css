@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .dropbtn {
     color: white;
     padding: 4px;
@@ -17,8 +22,7 @@
     background-color: #f9f9f9;
     min-width: 220px;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    
+    z-index: 1;    
     
 }
 
@@ -28,12 +32,6 @@
     text-decoration: none;
     display: block;
     grid-column-end: auto;
-    
-    
-
-
-
-
     
 }
 
@@ -72,15 +70,12 @@ button {
 }
 
 .navbar-manu-mark {
-
     width: 150px;
-
 }
 
 
 .navbar-manu-mark:hover {
-    background-color: rgb(17, 17, 17);
-    
+    background-color: rgb(17, 17, 17);    
 }
 
 button:hover {    
@@ -104,6 +99,10 @@ button:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
       
+}
+#icon-sistema{
+    color: white;
+    margin-top: 0px;
 }
 
 

@@ -1,24 +1,30 @@
 import {ReactComponent as Iconwhatsapp} from './img/whatsapp.svg'
+import {ReactComponent as Logosistema} from './img/cloud-32.svg'
 import './styles.css';
 const Home = () => {
     return (
         <>
-            <div className='home-container'>
-                <div className='base-card home-card'>
-                    <div className='home-content-container'>
-                        <div>
-                            <h1>Sistema de controle de pedidos</h1>
-                            <p>Contato</p>
-                            <p>www.alphatecsistemas.com.br</p>
-                            <p>84 9 33161022 <Iconwhatsapp/></p>
-                        </div>
-                      
+        <div className='container-main'>
+                <div className='rodateto'>Página Inicial</div>
+                <div className='nain-tela'>
+                    <div className='tela-a'>
+                    <table className='inf-empresa'>                            
+                                <td><Logosistema id='ico-sistema'/>Ethan</td>
+                                <td>Alphatec Sistemas</td>
+                                <td>www.alphatecsistemas.com.br</td>
+                                <td>Contato 84 9 33161022 <Iconwhatsapp id='ico-whatsapp'/></td>
+                            </table> 
                     </div>
-                    <div className='home-image-container'>
-                    
-                    </div>
+
+                  
+
                 </div>
             </div>
+
+
+
+
+           
         </>
     );
 }

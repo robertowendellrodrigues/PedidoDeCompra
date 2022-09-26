@@ -2,7 +2,8 @@ import './styles.css';
 import { ReactComponent as Iconlist } from './img/door-open.svg'
 import { ReactComponent as Buttonmobile } from './img/list-ul.svg'
 import { Link } from 'react-router-dom';
-import {ReactComponent as Iconlogin} from './img/person-login.svg'
+import { ReactComponent as Iconlogin } from './img/person-login.svg'
+import { ReactComponent as Iconsistema } from './img/cloud-32.svg'
 
 
 const Navbar = () => {
@@ -12,13 +13,10 @@ const Navbar = () => {
             <div className='navbar-container'>
                 <button className='button-mobile'><Buttonmobile /></button>
                 <div className='navbar-menu'>
-                
-                    <ul>                 
-
+                    <ul>
                         <li className='navbar-manu-mark dropdown'>
                             <button className='dropbtn'> Cadastro</button>
                             <div className='dropdown-content'>
-                                
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>
@@ -34,7 +32,7 @@ const Navbar = () => {
                             <div className='dropdown-content'>
                                 <a href="">NF/NF-e/DAV</a>
                                 <a href="">Caixa Central</a>
-                                
+
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>
@@ -45,8 +43,6 @@ const Navbar = () => {
                                 <a href="">Fluxo de caixa</a>
                                 <a href="">Orçamento</a>
                                 <a href="">Conciliação de recebíveis</a>
-                                
-                                
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>
@@ -57,37 +53,29 @@ const Navbar = () => {
                                 <a href="">Fluxo de caixa</a>
                                 <a href="">Orçamento</a>
                                 <a href="">Conciliação de recebíveis</a>
-                                
-                                
                             </div>
                         </li>
-                        <li className='navbar-manu-mark dropdown' id='div-login'>                            
-                                <Iconlogin id='icon-login'/>                                   
-                       
+                        <li className='navbar-manu-mark dropdown' id='div-login'>
+                            <Iconlogin id='icon-login' />
+
                             <div className='dropdown-content '>
-                                <a href="" className='icon-a-submenu'>Contas á pagar</a>
-                                <a href="" className='icon-a-submenu'>Contas á receber</a>
-                                <a href="" className='icon-a-submenu'>Fluxo de caixa</a>
+                                <Link to={'home'}>Home</Link> 
+                                <a href="" className='icon-a-submenu'>Empresa Vincunlada</a>
                                 <a href="" className='icon-a-submenu'>Orçamento</a>
-                                <a href="" className='icon-a-submenu'>Conciliação de recebíveis</a>
-                                
-                                
+                                <a href="" className='icon-a-submenu'>Sair</a>
+
                             </div>
-                            
-                            
+
                         </li>
-                        
-
-
                     </ul>
 
                 </div>
-                
-                
-                
 
-                
-                
+
+
+
+
+
             </div>
 
 

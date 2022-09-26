@@ -1,6 +1,9 @@
 import './styles.css';
+import { Fetcher } from 'react-router-dom';
 
 const Client = () => {
+    
+   
     return (
         <>
             <div className='client-container-main'>
@@ -25,7 +28,7 @@ const Client = () => {
                                     <button className='bnt-tabs-client'>Endereço de Entrega</button>
                                 </div>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho'>CEP:<input className='inp-7dig'></input></td>
+                                    <td className='td-tamanho'>CEP:<input className='inp-7dig' type="text" ></input></td>
                                     <td className='td-tamanho'>Logradouro:<input className='inp-40dig'></input></td>
                                     <td className='td-tamanho'>Numero:<input className='inp-5dig'></input></td>
                                     <td className='td-tamanho'>Complemento:<input></input></td>
@@ -36,7 +39,7 @@ const Client = () => {
                             </div>
                             <div className='forma-contato-client'>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho inp-15dig'>Formas de Contato:<select name="" id=""></select> </td>
+                                    <td className='td-tamanho inp-15dig'>Formas de Contato:<select name="" id="">Telefone</select> </td>
                                     <td className='td-tamanho'>Fone, e-mail, rede social, etc<input className='inp-30dig'></input></td>
                                     <input type="text" className='inp-80dig' />
                                 </table>

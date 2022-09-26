@@ -13,6 +13,8 @@ import Caixa from "./Components/Pages/Caixa";
 import Banco from "./Components/Pages/Banco";
 import Notafiscal from "./Components/Pages/Notafiscal";
 import Compra from "./Components/Pages/Compras";
+import Telalogin from "./Components/Telalogin";
+
 
 export default function App() {
     return (
@@ -22,7 +24,7 @@ export default function App() {
             <CRUD_client />
 
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="cliente" element={<Client />} />
                 <Route path="fornecedor" element={<Provider />} />
                 <Route path="contaspagar" element={<Contaspagar/>}/>
@@ -32,6 +34,7 @@ export default function App() {
                 <Route path="banco" element={<Banco/>}/>
                 <Route path="nf-e" element={<Notafiscal/>}/>
                 <Route path="compra" element={<Compra/>}/>
+                <Route path="login" element={<Telalogin/>}/>
                 
 
             </Routes>
