@@ -14,12 +14,17 @@ import Banco from "./Components/Pages/Banco";
 import Notafiscal from "./Components/Pages/Notafiscal";
 import Compra from "./Components/Pages/Compras";
 import Telalogin from "./Components/Telalogin";
+import Pdv from "./Components/Pages/Pdv";
 
 
-export default function App() {
+export default function App() {  
+    
+
+
     return (
-        <BrowserRouter>
-            <Navbar />
+
+        <BrowserRouter>        
+            <Navbar/>
             <Navicon />
             <CRUD_client />
 
@@ -27,15 +32,16 @@ export default function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="cliente" element={<Client />} />
                 <Route path="fornecedor" element={<Provider />} />
-                <Route path="contaspagar" element={<Contaspagar/>}/>
-                <Route path="contasreceber" element={<Contasreceber/>}/>
-                <Route path="estoque" element={<Estoque/>}/>
-                <Route path="caixa" element={<Caixa/>}/>
-                <Route path="banco" element={<Banco/>}/>
-                <Route path="nf-e" element={<Notafiscal/>}/>
-                <Route path="compra" element={<Compra/>}/>
-                <Route path="login" element={<Telalogin/>}/>
-                
+                <Route path="contaspagar" element={<Contaspagar />} />
+                <Route path="contasreceber" element={<Contasreceber />} />
+                <Route path="estoque" element={<Estoque />} />
+                <Route path="caixa" element={<Caixa />} />
+                <Route path="banco" element={<Banco />} />
+                <Route path="nf-e" element={<Notafiscal />} />
+                <Route path="compra" element={<Compra />} />
+                <Route path="login" element={<Telalogin />} />
+                <Route path="pdv" element={<Pdv />} />
+
 
             </Routes>
         </BrowserRouter>

@@ -57,7 +57,7 @@ const Navicon = () => {
                         
                     </div>
                     <div className='icon'>
-                    <Link className='icon' to={'fornecedor'}><Iconpdv />PDV</Link>
+                    <Link className='icon' to={'pdv'}><Iconpdv />PDV</Link>
                        
                     </div>
                     <div className='icon'>
