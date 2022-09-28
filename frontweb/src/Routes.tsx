@@ -45,7 +45,7 @@ export default function App() {
                 <Route path="banco" element={<Banco />} />
                 <Route path="nf-e" element={<Notafiscal />} />
                 <Route path="compra" element={<Compra />} />
-                <Route path="login" element={<Telalogin />} />
+                <Route path="telagolin" element={<Telalogin />} />
                 <Route path="pdv" element={<Pdv/>}/>
                 
 
