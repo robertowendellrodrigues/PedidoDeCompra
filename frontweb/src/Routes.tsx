@@ -16,17 +16,23 @@ import Compra from "./Components/Pages/Compras";
 import Telalogin from "./Components/Telalogin";
 import Pdv from "./Components/Pages/Pdv";
 
+/*
 
-export default function App() {  
-    
+
+
+*/
+
+export default function App() {
+
 
 
     return (
 
-        <BrowserRouter>        
-            <Navbar/>
+        <BrowserRouter>
+            <Navbar />
             <Navicon />
             <CRUD_client />
+
 
             <Routes>
                 <Route path="/home" element={<Home />} />
@@ -40,7 +46,8 @@ export default function App() {
                 <Route path="nf-e" element={<Notafiscal />} />
                 <Route path="compra" element={<Compra />} />
                 <Route path="login" element={<Telalogin />} />
-                <Route path="pdv" element={<Pdv />} />
+                <Route path="pdv" element={<Pdv/>}/>
+                
 
 
             </Routes>
