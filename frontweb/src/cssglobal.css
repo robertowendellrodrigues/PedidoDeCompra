@@ -4,3 +4,11 @@ textarea:focus, input:focus {
     outline: 0;
     background-color:rgba(192, 165, 12, 0.291);
 }
+
+.rodateto-pagina{
+    color: white;
+    background-color: rgb(128, 128, 108);
+    padding-left: 20px;
+    height: 30px;
+    
+}

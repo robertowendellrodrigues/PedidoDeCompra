@@ -5,7 +5,7 @@ const Provider = () => {
     return (
         <>
             <div className='client-container-main'>
-                <div className='rodateto'>Fornecedor</div>
+                <div className='rodateto-pagina'>Fornecedor</div>
                 <div className='client-nain'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>

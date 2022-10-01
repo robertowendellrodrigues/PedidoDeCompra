@@ -15,6 +15,7 @@ import Notafiscal from "./Components/Pages/Notafiscal";
 import Compra from "./Components/Pages/Compras";
 import Telalogin from "./Components/Telalogin";
 import Pdv from "./Components/Pages/Pdv";
+import Emitente from "./Components/Pages/Emitente";
 
 /*
 
@@ -29,12 +30,11 @@ export default function App() {
     return (
 
         <BrowserRouter>
-            <Navbar />
-            <Navicon />
-            <CRUD_client />
-
-
+                
+            <Navbar/>
+            <Navicon/>
             <Routes>
+                <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="cliente" element={<Client />} />
                 <Route path="fornecedor" element={<Provider />} />
@@ -47,6 +47,7 @@ export default function App() {
                 <Route path="compra" element={<Compra />} />
                 <Route path="telagolin" element={<Telalogin />} />
                 <Route path="pdv" element={<Pdv/>}/>
+                <Route path="emitente" element={<Emitente/>}/>
                 
 
 

@@ -7,7 +7,7 @@
 
 .rodateto {
     color: white;
-    background-color: rgb(128, 128, 108);
+    background-color: rgb(191, 199, 196);
     margin: 0px 20px 0px 20px;
     padding-left: 20px;
 }
@@ -15,7 +15,7 @@
 .client-nain {
     display: flex;
     height: 680px;
-    background-color: rgb(218, 224, 225);
+    background-color: rgb(191, 199, 196);
     margin: 0px 20px 0px 20px;
 }
 

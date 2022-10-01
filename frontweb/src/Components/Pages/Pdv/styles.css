@@ -9,6 +9,7 @@
     height: 90px;
     background-color: rgb(103, 140, 150);
     color: white;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.993); 
 }
 
 .inf-operacao-pdv {
@@ -42,6 +43,7 @@
     
 
 
+
 }
 
 .head-pdv a {
@@ -52,6 +54,8 @@
     border: 1px solid rgba(70, 69, 69, 0.158);
     border-top: none;
     margin-left: 30px;
+    box-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.226);
+    
 
 }
 
@@ -65,7 +69,7 @@
 .coluna1 {
     width: 500px;
     height: 100%;
-   
+
 
 }
 
@@ -74,13 +78,14 @@
     width: 480px;
     height: 440px;
     background-color: rgb(253, 251, 215);
+    box-shadow: 1px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.055); 
 }
 
 
 .coluna2 {
     width: 340px;
-    height: 100%;   
-    
+    height: 100%;
+
 }
 
 .inf-item-pdv {
@@ -97,8 +102,10 @@
     margin-bottom: 30px;
     font-size: 30px;
     text-align: center;
+    box-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.226);
 }
-.coidigo-pro-pdv{
+
+.coidigo-pro-pdv {
     height: 70px;
     background-color: rgb(253, 251, 215);
     margin-bottom: 50px;
@@ -108,52 +115,61 @@
     margin-top: 15px;
     width: 340px;
     height: 100%;
-   
+
 
 }
-.teclado-main-pdv{
+
+.teclado-main-pdv {
     display: flex;
     flex-direction: column;
     height: 450px;
-    
-    
+
+
 }
-.teclado-pdv{
+
+.teclado-pdv {
     display: flex;
-    
-    
-} 
-.teclas-pdv{
+
+
+}
+
+.teclas-pdv {
     width: 74px;
     height: 74px;
     margin: 5px;
     border-radius: 7px;
-    background-color: rgba(68, 93, 100, 0.055); 
+    background-color: rgba(68, 93, 100, 0.055);
     text-align: center;
-    padding-top: 20px;  
+    padding-top: 20px;
     color: rgb(95, 95, 95);
+    font-size: 22px;
+    box-shadow: 1px 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.226);
 }
-.teclas-pdv:hover{
+
+.teclas-pdv:hover {
     background-color: rgb(33, 42, 44);
-color: white;
+    color: white;
 }
 
 
-#tecla-0-pdv{
+#tecla-0-pdv {
     width: 160px;
 }
-#tecla-enter{
+
+#tecla-enter {
     height: 244px;
     position: absolute;
     margin-left: 260px;
     padding-top: 110px;
 }
-.div-sub-total-pdv{
+
+.div-sub-total-pdv {
     display: flex;
     height: 90px;
     margin-left: 365px;
 }
-.inp-sub-total-pdv{
+
+.inp-sub-total-pdv {
     width: 340px;
     height: 60px;
     margin-left: 24px;
@@ -164,12 +180,14 @@ color: white;
     border-top: none;
     text-align: right;
     padding-right: 20px;
+    box-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.226);
 
 }
-.div-sub-total-pdv p{
+
+.div-sub-total-pdv p {
     font-size: 30px;
-    
-    
+
+
 }
 
 
@@ -179,7 +197,7 @@ color: white;
     max-width: 1360px;
     height: 90px;
     margin-left: 30px;
-    
+
 
 }
 
@@ -191,8 +209,11 @@ color: white;
     background-color: rgb(68, 93, 100);
     color: white;
     border: none;
+    box-shadow: 1.5px 1.5px 0px rgb(32, 32, 32); 
+   
 }
-.btn-pdv:hover{
+
+.btn-pdv:hover {
     background-color: rgb(33, 42, 44);
 }
 
@@ -204,8 +225,8 @@ footer {
     color: white;
 }
 
-.teclas-inf-pdv{
-    
+.teclas-inf-pdv {
+
     width: 102px;
 
 }

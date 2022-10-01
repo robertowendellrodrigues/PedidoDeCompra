@@ -7,7 +7,7 @@
 .icons{
     display: flex;
     flex-direction: row;    
-    background-color: rgba(17, 17, 17, 0.938);
+    background-color: rgba(17, 17, 17, 0.911);
     height: 70px;    
 }
 .icon{
@@ -15,9 +15,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
+    width: 105px;
     height: 65px;
-    color: rgba(255, 255, 255, 0.767);    
+    color: rgba(255, 255, 255, 0.767);
+    margin: 1px;    
       
 }
 svg{
@@ -27,8 +28,12 @@ svg{
 .icon :hover{
     color: rgb(192, 165, 12);
     font-size: 1.1em;
-    background-color: rgb(5, 5, 5);    
+    background-color: rgb(0, 0, 0);
+    
+        
 }
+
+
 
 
 

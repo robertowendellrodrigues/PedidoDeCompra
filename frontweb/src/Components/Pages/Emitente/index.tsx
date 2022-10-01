@@ -1,28 +1,22 @@
-import './styles.css';
-import { Fetcher } from 'react-router-dom';
-import CRUD_client from '../../CRUD_client';
-import Navicon from '../../Navicon';
 
-const Client = () => {
-    
-   
-    return (
+const Emitente =()=>{
+    return(
         <>
-      
-            <div className='client-container-main-1'>
-                <CRUD_client/>
-                <div className='rodateto-pagina'>Cliente</div>
-                <div className='client-nain1'>
+
+<div className='client-container-main'>
+                <div className='rodateto'>Emitente</div>
+                <div className='client-nain'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>
                             <div className='endereço-client'>
                                 <table className='client-tabela'>
                                     <td className='td-tamanho'>Código:<input className='inp-7dig'></input></td>
-                                    <td className='td-tamanho'>Nome:<input className='inp-40dig'></input></td>
-                                    <td className='td-tamanho'>CPF/CNPJ:<input className='inp-15dig'></input></td>
-                                    <td className='td-tamanho'>RG/INSCR:<input></input></td>
-                                    <td className='td-tamanho'>Dt Identidade:<input className='inp-7dig'></input></td>
-                                    <td className='td-tamanho'>Fantasia:<input className='inp-60dig'></input></td>
+                                    <td className='td-tamanho'>Razão Social *<input className='inp-40dig'></input></td>
+                                    <td className='td-tamanho'>Nome Fantasia *<input className='inp-60dig'></input></td>
+                                    <td className='td-tamanho'>CPF/CNPJ *<input className='inp-15dig'></input></td>
+                                    <td className='td-tamanho'>RG/Inscrição Estadual *<input></input></td>
+                                    <td className='td-tamanho'>Dt Identidade *<input className='inp-7dig'></input></td>
+                                    
                                 </table>
                             </div>
                             <div className='endereço-client'>
@@ -32,7 +26,7 @@ const Client = () => {
                                     <button className='bnt-tabs-client'>Endereço de Entrega</button>
                                 </div>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho'>CEP:<input className='inp-7dig' type="text" ></input></td>
+                                    <td className='td-tamanho'>CEP:<input className='inp-7dig'></input></td>
                                     <td className='td-tamanho'>Logradouro:<input className='inp-40dig'></input></td>
                                     <td className='td-tamanho'>Numero:<input className='inp-5dig'></input></td>
                                     <td className='td-tamanho'>Complemento:<input></input></td>
@@ -43,7 +37,7 @@ const Client = () => {
                             </div>
                             <div className='forma-contato-client'>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho inp-15dig'>Formas de Contato:<select name="" id="">Telefone</select> </td>
+                                    <td className='td-tamanho inp-15dig'>Formas de Contato:<select name="" id=""></select> </td>
                                     <td className='td-tamanho'>Fone, e-mail, rede social, etc<input className='inp-30dig'></input></td>
                                     <input type="text" className='inp-80dig' />
                                 </table>
@@ -62,13 +56,8 @@ const Client = () => {
                                 <div>
                                 </div>
                                 <table className='client-tabela2'>
-                                    <td className='td-tamanho'>CEP:<input className='inp-7dig'></input></td>
-                                    <td className='td-tamanho'>Logradouro:<input className='inp-40dig'></input></td>
-                                    <td className='td-tamanho'>Numero:<input className='inp-5dig'></input></td>
-                                    <td className='td-tamanho'>Complemento:<input></input></td>
-                                    <td className='td-tamanho'>Bairro:<input></input></td>
-                                    <td className='td-tamanho inp-3dig'>UF:<select name="" id=""></select> </td>
-                                    <td className='td-tamanho inp-15dig'>Cidade:<select name="" id=""></select> </td>
+                                    <h2>Emitente</h2>
+                                    
                                 </table>
                             </div>
                         </table>
@@ -76,9 +65,9 @@ const Client = () => {
 
                 </div>
             </div>
+
+
         </>
-
-    );
+    )
 }
-
-export default Client
+export default Emitente

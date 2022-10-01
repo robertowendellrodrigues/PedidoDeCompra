@@ -1,5 +1,5 @@
 import './styles.css'
-
+import Iconlog from '../../Iconlogin'
 
 const Pdv = () => {
     return (
@@ -14,7 +14,10 @@ const Pdv = () => {
                     </div>
                     <div className="inf-operacao-pdv">
                         <h6>Usuário:</h6> <a href="">Pedro</a> <h6>Série:</h6><a href="">1</a>
+<Iconlog/>
+
                     </div>
+
 
 
                 </div>
@@ -108,7 +111,7 @@ const Pdv = () => {
                 <footer className="footer">
                     <p>www.alphatecsistemas.com.br</p>
                     <p>tel. 84 3316-1022</p>
-                    
+
 
                 </footer>
 

@@ -1,40 +1,83 @@
-.container-main {
+.container-main-homer {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 700px;
+    width: 100%;
+    height: 90vh;    
+    
+    
+    
 }
 
-.rodateto {
+.rodateto-home {
     color: white;
     background-color: rgb(128, 128, 108);
-    margin: 0px 20px 0px 20px;
     padding-left: 20px;
+    height: 30px;
+       
 }
 
-.nain-tela {
+
+
+
+.nain-tela55 {
     display: flex;
-    height: 680px;
-    background-color: rgb(218, 224, 225);
-    margin: 0px 20px 0px 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(191, 199, 196);
+    
+    
+     
+    
 }
 
 .inf-empresa{
-    width: 270px;
-    height: 180px;
-    margin-left: 800px;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(0, 0, 0, 0.072);
-    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 180px;
     border-radius: 5px;
-    color: rgba(0, 0, 0, 0.382);
+    color: rgba(0, 0, 0, 0.205);
+    margin-top: 230px;
+    margin-left: 110px;
+    
     
 }
 #ico-sistema{
 margin-right: 20px;
+width: 40px;
+
 }
-#ico-whatsapp{
+.icon-home{
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    color: rgba(67, 71, 42, 0.068);   
+   
+    padding-bottom: 80px;
+    border-radius: 10px;
+    margin-top: 50px;
     
+}
+.contato{
+    display: flex;
+    
+}
+
+.icon-whatsapp{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
+.slogan{
+    width: 350px;
+    
+}
+
+.nome-empresa{
+    font-size: 20px;
 }

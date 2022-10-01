@@ -17,6 +17,7 @@ const Navbar = () => {
                         <li className='navbar-manu-mark dropdown'>
                             <button className='dropbtn'> Cadastro</button>
                             <div className='dropdown-content'>
+                                <Link to={'emitente'}>Emitente</Link>
                             </div>
                         </li>
                         <li className='navbar-manu-mark dropdown'>
@@ -59,11 +60,10 @@ const Navbar = () => {
                             <Iconlogin id='icon-login' />
 
                             <div className='dropdown-content '>
-                                <Link to={'home'}>Home</Link> 
+                                <Link to={'home'}>Home</Link>
                                 <a href="" className='icon-a-submenu'>Empresa Vincunlada</a>
                                 <a href="" className='icon-a-submenu'>Orçamento</a>
                                 <Link to={'telagolin'}>Sair</Link>
-                                
 
                             </div>
 

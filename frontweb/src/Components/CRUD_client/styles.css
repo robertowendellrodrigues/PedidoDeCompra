@@ -7,7 +7,7 @@
 
 .main-container {
     height: 90px;
-    background-color: rgb(218, 224, 225);
+    background-color: rgb(191, 199, 196);
     margin: 5px 20px 0px 20px;
 
 }
@@ -38,6 +38,7 @@
     border: none;
     width: 120px;
     height: 45px;
+    box-shadow: 0.5px 0.5px 0.5px black; 
     
 }
 

@@ -1,10 +1,14 @@
 import './styles.css';
+import '../../../cssglobal.css';
+
+
 
 const Estoque = () => {
     return (
         <>
+            
             <div className='container-main'>
-                <div className='rodateto'>Estoque</div>
+                <div className='rodateto-pagina'>Estoque</div>
                 <div className='nain-tela'>
                     <div className='tela-a'>
                         <table className='tabela-a'>
