@@ -3,9 +3,10 @@ import './styles.css'
 import { useForm } from "react-hook-form";
 import { type } from '@testing-library/user-event/dist/type';
 
+const Login =()=>{
+  
 
-const Telalogin = () => {
-    type FormData = {
+type FormData = {
         usename: string
         password: string
     }
@@ -58,11 +59,8 @@ const Telalogin = () => {
 
                 </div>
             </div>
-
-
-
-
+       
         </>
     )
 }
-export default Telalogin;
+export default Login

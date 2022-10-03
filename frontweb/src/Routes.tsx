@@ -12,10 +12,10 @@ import Caixa from "./Components/Pages/Caixa";
 import Banco from "./Components/Pages/Banco";
 import Notafiscal from "./Components/Pages/Notafiscal";
 import Compra from "./Components/Pages/Compras";
-import Telalogin from "./Components/Telalogin";
 import Pdv from "./Components/Pages/Pdv";
 import Emitente from "./Components/Pages/Emitente";
 import Config from "./Components/Config";
+import Login from "./Components/Config/Auth/Login";
 /*
 
 
@@ -44,7 +44,7 @@ export default function App() {
                 <Route path="banco" element={<Banco />} />
                 <Route path="nf-e" element={<Notafiscal />} />
                 <Route path="compra" element={<Compra />} />
-                <Route path="telagolin" element={<Telalogin />} />
+                <Route path="login" element={<Login />} />
                 <Route path="pdv" element={<Pdv/>}/>
                 <Route path="emitente" element={<Emitente/>}/>
                 <Route path="config" element={<Config/>}/>

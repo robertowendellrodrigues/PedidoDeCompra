@@ -63,7 +63,7 @@ const Navbar = () => {
                                 <Link to={'home'}>Home</Link>
                                 <a href="" className='icon-a-submenu'>Empresa Vincunlada</a>
                                 <a href="" className='icon-a-submenu'>Orçamento</a>
-                                <Link to={'telagolin'}>Sair</Link>
+                                <Link to={'login'}>Sair</Link>
 
                             </div>
 

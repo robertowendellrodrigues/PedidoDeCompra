@@ -13,7 +13,7 @@ const Pdv = () => {
                         <h6>Tipo de operação:</h6><a href="">Venda PDV</a>
                     </div>
                     <div className="inf-operacao-pdv">
-                        <h6>Usuário:</h6> <a href="">Pedro</a> <h6>Série:</h6><a href="">1</a>
+                        <h6>Usuário:</h6> <a href="">Wendell</a> <h6>Série:</h6><a href="">1</a>
 <Iconlog/>
 
                     </div>
@@ -22,7 +22,7 @@ const Pdv = () => {
 
                 </div>
                 <div className="head-pdv">
-                    <a href=""># Caderno 12 Matérias</a>
+                    <a href=""> # Caderno 12 Matérias</a>
 
                 </div>
                 <div className="body-pdv">
@@ -33,16 +33,16 @@ const Pdv = () => {
                             <table className='inf-item-pdv'>
 
                                 <td>
-                                    <h6>Código</h6><input type="text" className='inp-produto-pdv coidigo-pro-pdv' />
+                                    <h6>Código</h6><input type="text" className='inp-produto-pdv coidigo-pro-pdv' placeholder='7895652340001' />
                                 </td>
                                 <td>
-                                    <h6>Quantidade</h6><input type="text" className='inp-produto-pdv' />
+                                    <h6>Quantidade</h6><input type="text" className='inp-produto-pdv' placeholder='0'/>
                                 </td>
                                 <td>
-                                    <h6>Valor Unitário</h6><input type="text" className='inp-produto-pdv' />
+                                    <h6>Valor Unitário</h6><input type="text" className='inp-produto-pdv' placeholder='0' />
                                 </td>
                                 <td>
-                                    <h6>Valor Total do Item</h6><input type="text" className='inp-produto-pdv' />
+                                    <h6>Valor Total do Item</h6><input type="text" className='inp-produto-pdv' placeholder='R$ 0,00' />
                                 </td>
 
                             </table>
@@ -92,7 +92,7 @@ const Pdv = () => {
                     </div>
                     <div>
                         <td className='div-sub-total-pdv'>
-                            <p>Sub Total</p><input type="text" className='inp-sub-total-pdv' />
+                            <p>Sub Total</p><input type="text" className='inp-sub-total-pdv' placeholder='R$ 0,00' />
                         </td>
                     </div>
 

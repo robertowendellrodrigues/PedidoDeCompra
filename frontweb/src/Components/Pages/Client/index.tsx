@@ -17,12 +17,12 @@ const Client = () => {
                         <table className='client-tabela'>
                             <div className='endereço-client'>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho'>Código:<input className='inp-7dig'></input></td>
-                                    <td className='td-tamanho'>Nome:<input className='inp-40dig'></input></td>
-                                    <td className='td-tamanho'>CPF/CNPJ:<input className='inp-15dig'></input></td>
-                                    <td className='td-tamanho'>RG/INSCR:<input></input></td>
-                                    <td className='td-tamanho'>Dt Identidade:<input className='inp-7dig'></input></td>
-                                    <td className='td-tamanho'>Fantasia:<input className='inp-60dig'></input></td>
+                                    <td className='td-tamanho'>Código:<input className='inp-7dig' placeholder='00001'></input></td>
+                                    <td className='td-tamanho'>Nome:<input className='inp-40dig' placeholder='Razão Social'></input></td>
+                                    <td className='td-tamanho'>CPF/CNPJ:<input className='inp-15dig' placeholder='00.000.000/0001-00'></input></td>
+                                    <td className='td-tamanho'>RG/INSCR:<input placeholder='0.000.000'></input></td>
+                                    <td className='td-tamanho'>Dt Identidade:<input className='inp-7dig' placeholder='18/12/1998'></input></td>
+                                    <td className='td-tamanho'>Fantasia:<input className='inp-60dig' placeholder='Nome Fantazia'></input></td>
                                 </table>
                             </div>
                             <div className='endereço-client'>
@@ -32,13 +32,13 @@ const Client = () => {
                                     <button className='bnt-tabs-client'>Endereço de Entrega</button>
                                 </div>
                                 <table className='client-tabela'>
-                                    <td className='td-tamanho'>CEP:<input className='inp-7dig' type="text" ></input></td>
-                                    <td className='td-tamanho'>Logradouro:<input className='inp-40dig'></input></td>
-                                    <td className='td-tamanho'>Numero:<input className='inp-5dig'></input></td>
+                                    <td className='td-tamanho'>CEP:<input className='inp-7dig' type="text" placeholder='00000-000'></input></td>
+                                    <td className='td-tamanho'>Logradouro:<input className='inp-40dig' placeholder='Logradouro'></input></td>
+                                    <td className='td-tamanho'>Numero:<input className='inp-5dig' placeholder='01'></input></td>
                                     <td className='td-tamanho'>Complemento:<input></input></td>
-                                    <td className='td-tamanho'>Bairro:<input></input></td>
-                                    <td className='td-tamanho inp-3dig'>UF:<select name="" id=""></select> </td>
-                                    <td className='td-tamanho inp-15dig'>Cidade:<select name="" id=""></select> </td>
+                                    <td className='td-tamanho'>Bairro:<input placeholder='Bairro'></input></td>
+                                    <td className='td-tamanho inp-3dig'>UF:<select name="" id="" placeholder='RN'></select> </td>
+                                    <td className='td-tamanho inp-15dig'>Cidade:<select name="" id="" placeholder='Cidade'></select> </td>
                                 </table>
                             </div>
                             <div className='forma-contato-client'>
