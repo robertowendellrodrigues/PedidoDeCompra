@@ -1,15 +1,18 @@
 import './styles.css';
 import '../../../cssglobal.css';
+import CRUD_client from '../../CRUD_client';
 
 
 
 const Estoque = () => {
     return (
         <>
+        
             
-            <div className='container-main'>
-                <div className='rodateto-pagina'>Estoque</div>
-                <div className='nain-tela'>
+            <div className='container-main-glob'>
+            <CRUD_client/>
+                <div className='rodateto-pagina-glob'>Estoque</div>
+                <div className='nain-tela-glob'>
                     <div className='tela-a'>
                         <table className='tabela-a'>
                             <h2>Estoque de produtos</h2>

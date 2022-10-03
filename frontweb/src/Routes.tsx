@@ -5,7 +5,6 @@ import Home from "./Components/Pages/Home";
 import Provider from "./Components/Pages/Provider";
 import Navbar from "./Components/Navbar";
 import Navicon from "./Components/Navicon";
-import CRUD_client from "./Components/CRUD_client";
 import Contaspagar from "./Components/Pages/ContasPagar";
 import Contasreceber from "./Components/Pages/ContasReceber";
 import Estoque from "./Components/Pages/Estoque";
@@ -16,7 +15,7 @@ import Compra from "./Components/Pages/Compras";
 import Telalogin from "./Components/Telalogin";
 import Pdv from "./Components/Pages/Pdv";
 import Emitente from "./Components/Pages/Emitente";
-
+import Config from "./Components/Config";
 /*
 
 
@@ -48,6 +47,7 @@ export default function App() {
                 <Route path="telagolin" element={<Telalogin />} />
                 <Route path="pdv" element={<Pdv/>}/>
                 <Route path="emitente" element={<Emitente/>}/>
+                <Route path="config" element={<Config/>}/>
                 
 
 

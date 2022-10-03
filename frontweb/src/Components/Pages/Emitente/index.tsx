@@ -1,11 +1,12 @@
-
+import CRUD_client from "../../CRUD_client"
 const Emitente =()=>{
     return(
         <>
 
-<div className='client-container-main'>
-                <div className='rodateto'>Emitente</div>
-                <div className='client-nain'>
+<div className='container-main-glob'>
+    <CRUD_client/>
+                <div className='rodateto-pagina-glob'>Emitente</div>
+                <div className='nain-tela-glob'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>
                             <div className='endereço-client'>

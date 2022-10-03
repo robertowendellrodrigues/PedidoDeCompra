@@ -1,12 +1,15 @@
 import './styles.css';
 import { Link } from 'react-router-dom';
+import CRUD_client from '../../CRUD_client';
 
 const Provider = () => {
     return (
         <>
-            <div className='client-container-main'>
-                <div className='rodateto-pagina'>Fornecedor</div>
-                <div className='client-nain'>
+        
+            <div className='container-main-glob'>
+            <CRUD_client/>
+                <div className='rodateto-pagina-glob'>Fornecedor</div>
+                <div className='nain-tela-glob'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>
                             <div className='endereço-client'>

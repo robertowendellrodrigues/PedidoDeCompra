@@ -1,11 +1,13 @@
 import './styles.css';
+import CRUD_client from '../../CRUD_client';
 
 const Contaspagar = () => {
     return (
         <>
-            <div className='container-main'>
-                <div className='rodateto'>Contas a Pagar</div>
-                <div className='nain-tela'>
+            <div className='container-main-glob'>
+                <CRUD_client/>
+                <div className='rodateto-pagina-glob'>Contas a Pagar</div>
+                <div className='nain-tela-glob'>
                     <div className='tela-a'>
                         <table className='tabela-a'>
                             

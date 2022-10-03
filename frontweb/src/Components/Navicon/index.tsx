@@ -61,7 +61,7 @@ const Navicon = () => {
                        
                     </div>
                     <div className='icon'>
-                    <Link className='icon' to={'fornecedor'}><Iconconfig />Configuração</Link>
+                    <Link className='icon' to={'config'}><Iconconfig />Configuração</Link>
                         
                     </div>
 

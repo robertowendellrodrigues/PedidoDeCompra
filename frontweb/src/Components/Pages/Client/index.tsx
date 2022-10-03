@@ -11,8 +11,8 @@ const Client = () => {
       
             <div className='client-container-main-1'>
                 <CRUD_client/>
-                <div className='rodateto-pagina'>Cliente</div>
-                <div className='client-nain1'>
+                <div className='rodateto-pagina-glob'>Cliente</div>
+                <div className='nain-tela-glob'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>
                             <div className='endereço-client'>

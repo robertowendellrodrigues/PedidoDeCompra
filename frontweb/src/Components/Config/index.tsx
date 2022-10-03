@@ -1,14 +1,10 @@
-import './styles.css';
-import { Link } from 'react-router-dom';
-import CRUD_client from '../../CRUD_client';
 
-
-const Caixa = () => {
+const Config = () => {
     return (
         <>
             <div className='container-main-glob'>
-                    <CRUD_client/>                
-                <div className='rodateto-pagina-glob'>Caixa</div>
+                
+                <div className='rodateto-pagina-glob'>Configuração</div>
                 <div className='nain-tela-glob'>
                     <div className='client-tela1'>
                         <table className='client-tabela'>
@@ -22,7 +18,7 @@ const Caixa = () => {
                                     <td className='td-tamanho'>Fantasia:<input className='inp-60dig'></input></td>
                                 </table>
                             </div>
-                            
+
                             <div className='forma-contato-client'>
                                 <table className='client-tabela'>
                                     <td className='td-tamanho inp-15dig'>Formas de Contato:<select name="" id=""></select> </td>
@@ -44,8 +40,8 @@ const Caixa = () => {
                                 <div>
                                 </div>
                                 <table className='client-tabela2'>
-                                    <h2>Caixa</h2>
-                                    
+                                    <h2>Configuração</h2>
+
                                 </table>
                             </div>
                         </table>
@@ -53,9 +49,8 @@ const Caixa = () => {
 
                 </div>
             </div>
+
         </>
-
-    );
+    )
 }
-
-export default Caixa
+export default Config

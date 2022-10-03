@@ -11,7 +11,7 @@ const Home = () => {
             <div className='container-main-homer'>
                 <div className='rodateto-home'></div>
                 <div className='rodateto-home' >
-                    <h6>Página Iniicial</h6>
+                    <h6>Página Inicial</h6>
                 </div>
                 <div className='nain-tela55'>
                     
