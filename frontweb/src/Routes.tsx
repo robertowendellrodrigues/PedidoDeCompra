@@ -16,6 +16,8 @@ import Pdv from "./Components/Pages/Pdv";
 import Emitente from "./Components/Pages/Emitente";
 import Config from "./Components/Config";
 import Login from "./Components/Config/Auth/Login";
+import Recover from "./Components/Config/Auth/Recover";
+import Signup from "./Components/Config/Auth/Signup";
 /*
 
 
@@ -47,7 +49,9 @@ export default function App() {
                 <Route path="login" element={<Login />} />
                 <Route path="pdv" element={<Pdv/>}/>
                 <Route path="emitente" element={<Emitente/>}/>
-                <Route path="config" element={<Config/>}/>
+                <Route path="recover" element={<Recover/>}/>
+                <Route path="signup" element={<Signup/>}/>
+                
                 
 
 

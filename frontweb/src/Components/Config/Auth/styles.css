@@ -2,24 +2,21 @@
     padding: 0px;
     margin: 0px;
 }
-.container-main-login{
-    
+.container-main-login{    
       
 }
 
 .main-login{
     display: flex;
     flex-direction: column;
-    width: 360px;
-    height: 440px;
+    width: 440px;
+    height: 600px;
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
     background-color: rgb(191, 199, 196);
     margin: auto;
-    box-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.226); 
-
-    
+    box-shadow: 0px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.226);     
 }
 
 .divi-logo-sistema{
@@ -41,7 +38,7 @@
 }
 
 .inf-login{
-    width: 260px;    
+    width: 300px;    
 }
 
 .inf-login input{
@@ -63,8 +60,7 @@
 .inp-senha-login{
     height: 35px;
     padding-left: 5px;
-    box-shadow: 0.5px 0.5px 0.5px rgb(75, 73, 73); 
-    
+    box-shadow: 0.5px 0.5px 0.5px rgb(75, 73, 73);     
 }
 
 .btn-enter-login{
@@ -82,4 +78,39 @@
     color: rgb(192, 165, 12);
     font-size: 1.1em;
     background-color: rgba(17, 17, 17, 0.938); 
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 7px;
+    color: rgba(79, 82, 45, 0.911);
+    padding: 0px 90px 0px 10px;
+    margin-bottom: 20px;
+}
+#input-checkbox{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;  
+    
 }
